@@ -28,6 +28,7 @@ const Photo = ({
     imgStyle.top = top;
   }
 
+  
   const handleClick = (event) => {
     onClick(event, { photo, index });
   };
